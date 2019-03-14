@@ -3,7 +3,6 @@
 #include <iostream>
 using namespace System;
 bool Guess(int number) {
-	static int target = -1;
 	if (number == target) {
 		std::cout << "Correct !!";
 		target = -1;
